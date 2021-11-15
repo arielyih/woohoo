@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>WooHoo 帶您探索台灣</title>
+  <link rel="stylesheet" href="stylesheets/result.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="custom-width">
+      <div class="icon-logo"></div>
+    </header>
+    <section class="result-top custom-width">
+      <div class="search-wrap">
+        <input type="text" id="search-bar" placeholder="搜尋景點，開始您的旅程">
+        <button class="search-btn icon-search"></button>
+        <button class="search-clear btn-close"></button>
+      </div>
+      <div class="info-adjust-wrap">
+        <div class="filter-info">
+          <div></div>
+        </div>
+        <div class="show-list-grid">
+          <span>觀看方式</span>
+          <button class="icon-grid-view"></button>
+          <button class="icon-list-view"></button>
+        </div>
+        <div class="filter-wrap">
+          <i class="filter-count">0</i>
+          <button class="filter-btn icon-filter"><span>篩選條件</span></button>
+        </div>
+        <div class="filter-panel">
+          <h4>篩選條件<button class="panel-close btn-close"></button></h4>
+          <div class="filter-scroll">
+            <div class="filter-item" data-class="city">
+              <h5>行政區域</h5>
+              <ul>
+                <li>臺北市</li>
+                <li>新北市</li>
+                <li>桃園市</li>
+                <li>新竹市</li>
+                <li>苗栗縣</li>
+                <li>臺中市</li>
+                <li>彰化縣</li>
+                <li>雲林縣</li>
+                <li>嘉義市</li>
+                <li>臺南市</li>
+                <li>高雄市</li>
+                <li>屏東縣</li>
+                <li>基隆市</li>
+                <li>新北市</li>
+                <li>宜蘭縣</li>
+                <li>新竹縣</li>
+                <li>南投縣</li>
+                <li>花蓮縣</li>
+                <li>嘉義縣</li>
+                <li>臺東縣</li>
+                <li>連江縣</li>
+                <li>澎湖縣</li>
+                <li>金門縣</li>
+              </ul>
+            </div>
+            <div class="filter-item" data-class="time">
+              <h5>時間</h5>
+              <ul>
+                <li>全日開放</li>
+                <li>假日開放</li>
+                <li>平日開放</li>
+                <li>固定公休</li>
+              </ul>
+            </div>
+            <div class="filter-item" data-class="type">
+              <h5>類型</h5>
+              <ul>
+                <li>生態</li>
+                <li>自然風景</li>
+                <li>古蹟</li>
+                <li>文化</li>
+                <li>觀光工廠</li>
+                <li>遊憩</li>
+                <li>國家風景</li>
+                <li>廟宇</li>
+                <li>休閒農業</li>
+                <li>體育健身</li>
+                <li>溫泉</li>
+                <li>藝術</li>
+                <li>都會公園</li>
+                <li>小吃 / 特產</li>
+                <li>國家公園</li>
+                <li>林場</li>
+                <li>森林遊樂</li>
+                <li>其他</li>
+              </ul>
+            </div>
+          </div>
+          <div class="filter-btn-wrap">
+            <button class="filter-submit">套用</button>
+            <button class="clear-all">全部清除</button>
+          </div>
+        </div>
+        <div class="panel-close panel-close-bg"></div>
+      </div>
+    </section>
+    <section class="result-info custom-width"></section>
+    <div class="result-pages start">
+      <button class="page-up"></button>
+      <button class="page-down"></button>
+    </div>
+    <div class="result-popup">
+      <div class="popup-close popup-close-bg"></div>
+      <button class="btn-close popup-close"></button>
+    </div>
+    <div class="loading-wrap show">
+      <div>
+        <i class="shape shape1"></i>
+        <i class="shape shape2"></i>
+        <i class="shape shape3"></i>
+        <i class="shape shape4"></i>
+      </div>
+    </div>
+  </div>
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/result.js"></script>
+</body>
+
+</html>

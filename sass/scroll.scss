@@ -1,0 +1,44 @@
+section {
+  position: relative;
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0;
+  }
+
+  &:before {
+    left: 0;
+    background: linear-gradient(270deg,#fff0 0,#fff 90%,#fff);
+  }
+
+  &:after {
+    right: 0;
+    background: linear-gradient(90deg,#fff0 0,#fff 90%,#fff);
+  }
+}
+
+.scroll {
+  border-bottom: 1px solid #00000050;
+  overflow-x: auto;
+  display: flex;
+
+  div {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #f7f7f7;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 20px;
+
+    +div {
+      margin-left: 10px;
+    }
+  }
+}
